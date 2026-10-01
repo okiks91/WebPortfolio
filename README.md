@@ -51,4 +51,5 @@ Custom domain: Pages project → Custom domains → Set up (optional).
 - `src/components/ImageCarousel.jsx` — swipe / click / dots / keyboard / lightbox
 - `src/components/ProjectCard.jsx` — card with screenshots on top, description + role at bottom
 - `public/screenshots/` — your images (copied to dist automatically)
-- `public/_redirects`, `public/_headers` — Pages SPA fallback + security headers
+- `public/_headers` — security + caching headers
+- `wrangler.jsonc` — Workers Static Assets config (serves `dist/`)
